@@ -169,3 +169,6 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# ignore the unpacked data folder
+NEU\ Metal\ Surface\ Defects\ Data/
