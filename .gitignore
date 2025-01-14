@@ -170,5 +170,6 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
-# ignore the unpacked data folder
+# ignore the data folders as they are downloaded by the notebook
 NEU\ Metal\ Surface\ Defects\ Data/
+neu-metal-surface-defects-data.zip
