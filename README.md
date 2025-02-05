@@ -7,6 +7,10 @@ This project uses computer vision to predict the type of defect in a series of i
 # Result
 ResNeXt 50 pre-training outperforms ResNet v1.5 at 25 epochs, with less than half the errors, attaining 93% accuracy.
 
+Scratches and patches were the most over-represented (+2) in machine labels, and inclusions were most under-represented (-3).
+
+Crazing, Rolled, and pitting were all 100% correctly identified.
+
 ![ResNext50 Confusion Matrix](images/Confusion_Matrix_ResNext50.png) 
 
 ![ResNet50 Confusion Matrix](images/Confusion_Matrix_ResNet50.png)
